@@ -1,0 +1,77 @@
+/*
+========================
+ Animate 
+========================
+*/
+.hm-banner-dsc strong{
+  -webkit-animation-name: fadeInUpShort;
+  animation-name: fadeInUpShort;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;	
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;	
+}
+.hm-banner-dsc p{
+  -webkit-animation-name: fadeInUpShort;
+  animation-name: fadeInUpShort;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;	
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.hm-banner-dsc-btn{
+  -webkit-animation-name: fadeInUpShort;
+  animation-name: fadeInUpShort;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;	
+  -webkit-animation-delay: 1.9s;
+  animation-delay: 1.9s;		
+}
+.hm-banner-rgt-img{
+  -webkit-animation-name: fadeInUpShort;
+  animation-name: fadeInUpShort;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;  
+  -webkit-animation-delay: 1.12s;
+  animation-delay: 1.12s;    
+}
+/*
+------------------
+ Pagination Css
+------------------
+*/
+.slick-slider ul.slick-dots{
+  position: static;
+  line-height: 0;
+  padding: 0 20px!important;
+}
+.slick-slider .slick-dots li{
+  width: 15px!important;
+  height: 15px!important;
+  position: static;
+  background: #151515!important;
+  border-radius: 100% 100%!important;
+  margin: 0 6px;
+  padding: 0!important;
+}
+.slick-slider .slick-dots li.slick-active{
+  background: #C9151B!important;
+}
+.slick-slider .slick-dots li:before,
+.slick-slider .slick-dots li button:before{
+  content: none!important;
+}
+.slick-slider .slick-dots li button{
+  padding: 0;
+  width: 15px;
+  height: 15px;
+}
